@@ -1,3 +1,89 @@
-#heading{
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* #heading{
     color: red;
+} */
+/**{
+    padding: 0px;
+    border: none;
+    margin: 0px;
+    font-family: sans-serif;
 }
+
+.header-comp{
+    display: flex;
+    border:1px black solid;
+    margin:2px;
+    align-items: center;
+
+}
+.logo-img> img{
+    max-width: 20%;
+}
+.logo-img{
+    max-width: 70%;
+}
+.nav-items{
+    display:flex;
+    list-style-type: none;
+    gap:10px;
+    align-items: center;
+
+}
+.food-img{
+    width: 100%;
+}
+.food-img>img{
+    width: 100%;
+    height: 180px;
+}
+.search-box{
+    margin:5px;
+    border: 1px black solid;
+    border-radius: 2px;
+}
+.res-card{
+    display: flex;
+    flex-direction: column;
+    border:1px black solid;
+    max-width:20%;
+    margin: 5px;
+    gap: 5px;
+    border-radius: 5px;
+}
+.res-card:hover{
+    cursor: pointer;
+    background-color: gainsboro;
+}
+.rest-cont{
+    display: flex;
+    flex-wrap: wrap;
+}
+.food-details{
+    padding: 5px;
+}
+.top-btn,.btn-css{
+    padding: 5px;
+    cursor: pointer;
+    margin: 2px;
+    border-radius: 5px;
+}
+.shimmer-outer{
+    width:200px;
+    border: 2px solid gray;
+    height: 200px;
+    margin: 10px;
+}
+.shimmer-inner{
+    width: 100%;
+    background-color: aliceblue;
+    height: 200px;
+}
+.res-card-link{
+    text-decoration: none;
+}
+.user-div{
+    margin: 10px;
+}
+*/
